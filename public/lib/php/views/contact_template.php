@@ -18,17 +18,19 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
-                        <div class="contact-text-box" style="margin-top:5vh;">
+                        <div class="contact-text-box" style="margin-top:3vh;">
                             <div class="contact-brand-image">
                                 <img src="/lib/img/logo.svg" width="150px"/>
                             </div>
                             <br/>
                             <br class="visible-lg visible-md"/>
-                            <h1 style="font-size:1.9em;">Place your order by completing the form.</h1>
+                            <h1 style="font-size:2.5em;">Place your order.</h1>
                             <p style="font-size:1.2em;">Once we have verified your shipping details, we will send you a payment link.</p>
                             <hr/>
                                 <br/>
                             <p style="font-size:1.2em;font-weight:800;">
+                                <small><strong>Need Help?</strong></small>
+                                <br/>
                                 <small>sales@techgear.pro</small>
                                 <br/>
                                 <small>Brisbane, Queensland, Australia.</small>
