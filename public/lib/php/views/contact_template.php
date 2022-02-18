@@ -9,18 +9,18 @@
 		<link type="text/css" rel="stylesheet" href="/lib/css/style.css"/>
 	</head>
     <body class="contact-body">
-  		<div class="navbar-basic">
+		<div class="navbar-basic">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-6">
                         <p class="navbar-label">
                             <a href="/">
                                 <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
                             </a>
                         </p>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <a href="/contact.php" class="btn-cta">Order Now: $59.99</a>
+                    <div class="col-6 text-right">
+                        <a href="/contact.php" class="btn-cta">Order Now</a>
                     </div>
                 </div>
             </div>
@@ -35,8 +35,8 @@
                             </div>
                             <br/>
                             <br class="visible-lg visible-md"/>
-                            <h1 style="font-size:2.5em;">Place your order.</h1>
-                            <p style="font-size:1.2em;">Once we have verified your shipping details, we will send you a payment link.</p>
+                            <h1 style="font-size:2.3em;">Place your order.</h1>
+                            <p style="font-size:1em;">Once we have verified your shipping details, we will send you a payment link.</p>
                             <hr/>
                                 <br/>
                             <p style="font-size:1.2em;font-weight:800;">
