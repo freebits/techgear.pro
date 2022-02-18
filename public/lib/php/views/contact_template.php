@@ -3,91 +3,41 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Get a custom website for your next project.">
-        <meta name="author" content="web997.com">
         <link rel="icon" href="favicon.ico">
-        <title>Contact | web997.com</title>
-        <link rel="preload" as="font" type="font/woff2" crossorigin href="/lib/fonts/fontawesome-webfont.woff2?v=4.5.0"/>
-        <link rel="stylesheet" href="/lib/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/lib/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/lib/css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://www.google-analytics.com">
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-            ga('create', 'UA-67908236-7', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </head>
+        <title>Contact | Techgear.pro</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link type="text/css" rel="stylesheet" href="/lib/css/style.css"/>
+	</head>
     <body class="contact-body">
-    <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-label="menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">
-                    <div class="navbar-brand-image">
-                        <img src="/lib/img/logo.jpg"/>
-                    </div>
-                    <p class="navbar-brand-text">Web997</p>
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/contact.php">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-            </div>
+		<div class="navbar-basic">
+			<p class="navbar-label">
+		        <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
+			</p>
         </div>
-    </nav>
-        <div class="secondary-nav visible-xs visible-sm text-center">
-            <p class="secondary-nav-text"><strong>Brisbane Office:</strong></p>
-            <br class="visible-xs"/>
-            <p class="secondary-nav-text"><span class="fa fa-phone"></span> +61 478 202 665</p>
-            <p class="secondary-nav-text"><span class="fa fa-envelope"></span> jackson@web997.com</p>
-        </div>
-        <div class="container jumbo-container jumbo-container-contact" style="width:80%;">
-            <div class="row">
-                    <div class="col-xs-12 text-right visible-lg visible-md">
-                        <div class="secondary-nav">
-                            <p class="secondary-nav-text"><strong>Brisbane Office:</strong></p>
-                            <a href="/contact.php" class="secondary-nav-text">
-                                <span class="fa fa-comments"></span> Enquire Online
-                            </a>
-                            <p class="secondary-nav-text">
-                                <span class="fa fa-phone"></span> +61 478 202 665
-                            </p>
-                            <p class="secondary-nav-text">
-                                <span class="fa fa-envelope"></span> jackson@web997.com
-                            </p>
-                        </div>
-                    </div>
+        <div style="padding-top:15vh;">
+            <div class="container">
+                <div class="row">
                     <div class="col-xs-12 col-md-4">
-                        <div class="contact-text-box">
+                        <div class="contact-text-box" style="margin-top:5vh;">
                             <div class="contact-brand-image">
-                                <img src="/lib/img/logo.jpg"/>
+                                <img src="/lib/img/logo.svg" width="150px"/>
                             </div>
                             <br/>
                             <br class="visible-lg visible-md"/>
-                            <h1>Contact Us</h1>
-                            <p style="font-size:1.5em;">Request quotes, assistance and <br class="visible-lg"/> audits for websites and web services.</p>
+                            <h1 style="font-size:1.9em;">Place your order by completing the form.</h1>
+                            <p style="font-size:1.2em;">Once we have verified your shipping details, we will send you a payment link.</p>
+                            <hr/>
+                                <br/>
+                            <p style="font-size:1.2em;font-weight:800;">
+                                <small>sales@techgear.pro</small>
+                                <br/>
+                                <small>Brisbane, Queensland, Australia.</small>
+                            </p>
                         </div>
                     </div>
 
                     <div class="col-xs-12 col-md-8 text-center">
-                        <div class="panel form-panel">
+                        <div class="panel form-panel" style="padding:50px;box-shadow:2px 2px 100px rgba(0,0,0,0.1);">
                             <form action="/contact.php" method="post" role="form" class="text-left">
                                 <div class="row">
                                 <div class="col-md-6">
@@ -124,19 +74,39 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                        <label for="message">
-                                            Message:
+                                        <label for="email">
+                                            Address: 
                                         </label>
-                                        <textarea name="message" type="text" class="form-control" id="message"
-                                        placeholder="" required style="height:180px;margin-bottom:0;resize:none"><?php echo $message ?></textarea>
-                                        <?php if($message_error) { ?>
-                                                <div class="error"><?php echo $message_error ?></div>
+                                        <input name="address" type="address" class="form-control " id="address" placeholder=""
+                                        value="<?php echo $address ?>" required>
+                                        <?php if($address_error) { ?>
+                                            <div class="error"><?php echo $address_error ?></div>
+                                        <?php } ?>
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="email">
+                                            Country:
+                                        </label>
+                                        <input name="country" type="country" class="form-control " id="country" placeholder=""
+                                        value="<?php echo $country ?>" required>
+                                        <?php if($country_error) { ?>
+                                            <div class="error"><?php echo $country_error ?></div>
+                                        <?php } ?>
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="email">
+                                            Postcode:
+                                        </label>
+                                        <input name="postcode" type="postcode" class="form-control " id="postcode" placeholder=""
+                                        value="<?php echo $postcode ?>" required>
+                                        <?php if($postcode_error) { ?>
+                                            <div class="error"><?php echo $postcode_error ?></div>
                                         <?php } ?>
                                         </div>
                                     </div>
-                                    <div class="col-xs-12">   
+                                    <div class="col-sm-12">   
                                         <br/>
-                                        <input type="submit" value="Submit" class="btn btn-success btn-lg btn-block btn-hollow">
+                                        <input type="submit" value="Submit" class="btn btn-success btn-lg btn-block btn-submit">
                                     </div>
                                 </div>
                             </form>
