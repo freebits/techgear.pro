@@ -3,11 +3,6 @@
   "type": "project",
 
   "require": {
-    "mailgun/mailgun-php": "*",
-    "stripe/stripe-php":"*",
-    "ext-pdo": "*",
-    "ext-curl": "*",
-    "kriswallsmith/buzz": "^1.2",
-    "nyholm/psr7": "^1.4"
+    "mailgun/mailgun-php": "*"
   }
 }
