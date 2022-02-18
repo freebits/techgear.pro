@@ -9,14 +9,23 @@
 		<link type="text/css" rel="stylesheet" href="/lib/css/style.css"/>
 	</head>
     <body class="contact-body">
-		<div class="navbar-basic">
-			<p class="navbar-label">
-                <a href="/">
-                    <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
-                </a>
-			</p>
-        </div>
-        <div style="padding-top:15vh;">
+  		<div class="navbar-basic">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="navbar-label">
+                            <a href="/">
+                                <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <a href="/contact.php" class="btn-cta">Order Now: $59.99</a>
+                    </div>
+                </div>
+            </div>
+		</div>
+        <div style="padding-top:10vh;">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-4">
@@ -114,6 +123,24 @@
                                     </div>
                                 </div>
                             </form>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+                <div class="footer" style="padding-top:15vh;padding-bottom:10vh;background-color:#fafafa;margin-top:8vh;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <img src="/lib/img/logo.svg" width="120px;"/>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <a href="/">AeroScan Pro</a>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <a href="/contact.php">Contact Us</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
