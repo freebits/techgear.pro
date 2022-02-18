@@ -1,7 +1,7 @@
 server {
 	listen 80;
-	server_name web997.com www.web997.com;	
-	root /home/ubuntu/web997.com/public;
+	server_name techgear.pro www.techgear.pro;	
+	root /home/ubuntu/techgear.pro/public;
 	location / {
 		try_files $uri $uri/ =404;
 	}

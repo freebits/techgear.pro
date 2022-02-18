@@ -1,13 +1,13 @@
 server {
     listen 443 ssl http2;
 
-    server_name web997.com www.web997.com;
+    server_name techgear.pro www.techgear.pro;
     index index.html;
 
-    root /home/ubuntu/web997.com/public;
+    root /home/ubuntu/techgear.pro/public;
 
-    ssl_certificate /etc/letsencrypt/live/web997.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/web997.com/privkey.pem;
+    ssl_certificate /etc/letsencrypt/live/techgear.pro/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/techgear.pro/privkey.pem;
 
     location / {
         try_files $uri $uri/ =404;
