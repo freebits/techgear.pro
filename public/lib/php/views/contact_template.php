@@ -128,7 +128,7 @@
                 </div>
                 </div>
                 </div>
-                <div class="footer" style="padding-top:15vh;padding-bottom:10vh;background-color:#fafafa;margin-top:8vh;">
+                <div class="footer" style="padding-top:10vh;padding-bottom:10vh;background-color:#fafafa;margin-top:12vh;">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-4 text-center">
