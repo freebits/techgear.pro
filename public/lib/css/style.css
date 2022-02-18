@@ -21,7 +21,7 @@
     background-color:#fff;
     border-bottom:1px solid #eee;
     padding-bottom:15vh;
-    background-image:url('hero.jpg');
+    background-image:url('/lib/img/hero.jpg');
     background-size:720px auto;
     background-repeat:no-repeat;
     background-position:20% 30%;
@@ -125,7 +125,7 @@
 
 .section-scanner {
     background-size:94vh;
-    background-image:url('bg4.webp');
+    background-image:url('/lib/img/bg4.webp');
     background-position:0% 0%;
     background-size:120%;
     animation-name:example;
@@ -137,7 +137,7 @@
 
 .cta-scanner-zoom {
     background-size:98vh;
-    background-image:url('bg6.webp');
+    background-image:url('/lib/img/bg6.webp');
     background-position:0% 0%;
     background-size:120%;
     animation-name:example-zoom;
