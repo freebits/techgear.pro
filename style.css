@@ -61,6 +61,10 @@
     padding-top:30px;
 }
 
+.feature-text-box-specs p {
+    line-height:1.8em;
+}
+
 .feature-image-container {
     box-shadow:2px 2px 70px rgba(0,0,0,0.2);
     border-radius:10px;
@@ -105,10 +109,59 @@
 }
 
 .headline-block {
-    margin-top:35vh;
-    margin-bottom:45vh;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    color:#fff;
 }
 
 .headline-block-title {
     font-size:1.5em;
 }
+
+
+.section-specs {
+    margin-top:20vh;
+}
+
+.section-scanner {
+    background-size:94vh;
+    background-image:url('bg4.webp');
+    background-position:0% 0%;
+    background-size:120%;
+    animation-name:example;
+    animation-duration:20s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate-reverse;
+      animation-timing-function: linear;
+}
+
+.cta-scanner-zoom {
+    background-size:98vh;
+    background-image:url('bg6.webp');
+    background-position:0% 0%;
+    background-size:120%;
+    animation-name:example-zoom;
+    animation-duration:20s;
+      animation-iteration-count: infinite;
+      animation-direction:alternate-reverse;
+      animation-timing-function: linear;
+    border:1px solid #f00;
+    border-radius:50%;
+    height:95vh;
+    width:95vh;
+    margin:0 auto;
+    padding:10vh;
+    padding-top:35vh;
+    box-shadow:0px 0px 300px rgba(255,0,0,0.7);
+
+}
+@keyframes example {
+    from {background-position:0% 0%}
+    to {background-position:100% 100%}
+}
+
+@keyframes example-zoom {
+    from {background-position:0% 0%}
+    to {background-position:100% 100%}
+}
+
