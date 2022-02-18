@@ -11,7 +11,9 @@
     <body class="contact-body">
 		<div class="navbar-basic">
 			<p class="navbar-label">
-		        <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
+                <a href="/">
+                    <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
+                </a>
 			</p>
         </div>
         <div style="padding-top:15vh;">
