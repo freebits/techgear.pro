@@ -205,9 +205,14 @@ body {
     border-radius:10px;
 }
 
-.panel-form {
+.contact-body {
+    padding-top:3vh;
+}
+
+.form-panel {
     box-shadow:2px 2px 100px rgba(0,0,0,0.1);
     padding:50px;
+    margin-top:3vh;
 }
 
 .btn-submit {
@@ -413,6 +418,10 @@ body {
         color:#fff;
         text-shadow:2px 2px 300px rgba(0,0,0,0.4);
         text-stroke:1px black;
+    }
+
+    .contact-text-box {
+        margin-top:5vh;
     }
 
 }

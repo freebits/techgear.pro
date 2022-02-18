@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link type="text/css" rel="stylesheet" href="/lib/css/style.css"/>
 	</head>
-    <body class="contact-body">
+    <body>
 		<div class="navbar-basic">
             <div class="container-fluid">
                 <div class="row">
@@ -25,10 +25,10 @@
                 </div>
             </div>
 		</div>
-        <div style="padding-top:10vh;">
+        <div class="contact-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="contact-text-box" style="margin-top:3vh;">
                             <div class="contact-brand-image">
                                 <img src="/lib/img/logo.svg" width="150px"/>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-md-8 text-center">
+                    <div class="col-12 col-lg-8 text-center">
                         <div class="panel form-panel" style="padding:50px;box-shadow:2px 2px 100px rgba(0,0,0,0.1);">
                             <form action="/contact.php" method="post" role="form" class="text-left">
                                 <div class="row">
