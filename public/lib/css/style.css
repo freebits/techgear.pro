@@ -406,6 +406,10 @@ body {
         padding-top:0;
     }
 
+	.section-weight {
+		padding-top:10vh;
+	}
+
     .cta-scanner-zoom {
         height:70vh;
         width:70vh;

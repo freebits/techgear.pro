@@ -90,7 +90,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                        <label for="email">
+                                        <label for="address">
                                             Address: 
                                         </label>
                                         <input name="address" type="address" class="form-control " id="address" placeholder=""
@@ -100,7 +100,7 @@
                                         <?php } ?>
                                         </div>
                                         <div class="form-group">
-                                        <label for="email">
+                                        <label for="country">
                                             Country:
                                         </label>
                                         <input name="country" type="country" class="form-control " id="country" placeholder=""
@@ -110,7 +110,7 @@
                                         <?php } ?>
                                         </div>
                                         <div class="form-group">
-                                        <label for="email">
+                                        <label for="postcode">
                                             Postcode:
                                         </label>
                                         <input name="postcode" type="postcode" class="form-control " id="postcode" placeholder=""

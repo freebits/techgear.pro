@@ -1,6 +1,6 @@
 <?php
 
-function add_contact(string $name, string $phone, string $email, string $message) {
+function add_contact(string $name, string $phone, string $email, string $address, string $country, string $postcode) {
   $dbh = new PDO("pgsql:dbname=techgear.pro", "ubuntu");
   $sth = $dbh->prepare(
     'INSERT INTO contact(name, phone, email, address, country, postcode)
