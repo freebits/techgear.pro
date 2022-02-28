@@ -18,7 +18,7 @@
                     <div class="col-6">
                         <p class="navbar-label">
                             <a href="/">
-                                <img src="/lib/img/logo.svg" width="120px" class="navbar-image"/>
+                                <img src="/lib/img/logo.png" width="120px" class="navbar-image"/>
                             </a>
                         </p>
                     </div>
@@ -34,7 +34,7 @@
                     <div class="col-12 col-lg-4">
                         <div class="contact-text-box" style="margin-top:3vh;">
                             <div class="contact-brand-image">
-                                <img src="/lib/img/logo.svg" width="150px"/>
+                                <img src="/lib/img/logo.png" width="150px"/>
                             </div>
                             <br/>
                             <br class="visible-lg visible-md"/>
@@ -135,7 +135,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-4 text-center">
-                                <img src="/lib/img/logo.svg" width="120px;"/>
+                                <img src="/lib/img/logo.png" width="120px;"/>
                             </div>
                             <div class="col-sm-4 text-center">
                                 <a href="/">AeroScan Pro</a>
