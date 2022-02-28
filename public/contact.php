@@ -8,8 +8,14 @@ $phone = '';
 $phone_error = '';
 $email = '';
 $email_error = '';
-$address = '';
-$address_error = '';
+$address_line_1 = '';
+$address_line_1_error = '';
+$address_line_2 = '';
+$address_line_2_error = '';
+$city = '';
+$city_error = '';
+$state = '';
+$state_error = '';
 $country = '';
 $country_error = '';
 $postcode = '';
@@ -19,7 +25,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
     $phone = $_POST['phone'];
     $email = $_POST['email'];
-    $address = $_POST['address'];
+    $address_line_1 = $_POST['address_line_1'];
+    $address_line_2 = $_POST['address_line_2'];
+    $city = $_POST['city'];
+    $state = $_POST['state'];
     $country = $_POST['country'];
     $postcode = $_POST['postcode'];
 
@@ -44,11 +53,32 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       $email_error = 'Email must be less than 128 characters.';
     }
 
-    if(strlen($address) === 0) {
-      $address_error = 'Address is required.';
+    if(strlen($address_line_1) === 0) {
+      $address_line_1_error = 'Address Line 1 is required.';
     }
-    elseif(strlen($address) > 128) {
-      $address_error = 'Address must be less than 128 characters.';
+    elseif(strlen($address_line_1) > 128) {
+      $address_line_1_error = 'Address Line 1 must be less than 128 characters.';
+    }
+
+    if(strlen($address_line_2) === 0) {
+      $address_line_2_error = 'Address Line 2 is required.';
+    }
+    elseif(strlen($address_line_2) > 128) {
+      $address_line_2_error = 'Address Line 2 must be less than 128 characters.';
+    }
+
+    if(strlen($country) === 0) {
+      $city_error = 'City is required.';
+    }
+    elseif(strlen($country) > 128) {
+      $city_error = 'City must be less than 128 characters.';
+    }
+
+    if(strlen($state) === 0) {
+      $state_error = 'State is required.';
+    }
+    elseif(strlen($state) > 128) {
+      $state_error = 'State must be less than 128 characters.';
     }
 
     if(strlen($country) === 0) {
@@ -68,11 +98,14 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     if(empty($name_error) &&
       empty($phone_error) &&
       empty($email_error) &&
-      empty($address_error) &&
+      empty($address_line_1_error) &&
+      empty($address_line_2_error) &&
+      empty($city_error) &&
+      empty($state_error) &&
       empty($country_error) &&
       empty($postcode_error)) {
-		  add_contact($name, $phone, $email, $address, $country, $postcode);
-		  contact_mail($name, $phone, $email, $address, $country, $postcode);
+		  add_contact($name, $phone, $email, $address_line_1, $address_line_2, $city, $state, $country, $postcode);
+		  contact_mail($name, $phone, $email, $address_line_1, $address_line_2, $city, $state, $country, $postcode);
           header('Location: /success.html');
       }
 }
