@@ -36,12 +36,14 @@
                             <div class="contact-brand-image">
                                 <img src="/lib/img/logo.png" width="150px"/>
                             </div>
-                            <br/>
                             <br class="visible-lg visible-md"/>
                             <h1 style="font-size:2.3em;">Place your order.</h1>
                             <p style="font-size:1em;">Once we have verified your shipping details, we will send you a payment link.</p>
+                            <br/>
                             <hr/>
-                                <br/>
+							<p>Please ensure all information is correct.</p>
+                            <hr/>
+								<br/>
                             <p style="font-size:1.2em;font-weight:800;">
                                 <small><strong>Need Help?</strong></small>
                                 <br/>
@@ -56,78 +58,132 @@
                         <div class="panel form-panel" style="padding:50px;box-shadow:2px 2px 100px rgba(0,0,0,0.1);">
                             <form action="/contact.php" method="post" role="form" class="text-left">
                                 <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name">
-                                            Name:
-                                        </label>
-                                        <input name="name" type="text" class="form-control " id="name" placeholder=""
-                                        value="<?php echo $name ?>" required>
-                                        <?php if($name_error) { ?>
-                                            <div class="error"><?php echo $name_error ?></div>
-                                        <?php } ?>
-                                        </div>
+									<div class="col-12">
+										<h3>Contact Details</h3>
+										<p style="color:#aaa;">How can we contact you?</p>
+									</div>
+									<div class="col-12 col-md-6">
+                        	            <div class="form-group">
+	                                        <label for="name">
+    	                                        Name:
+        	                                </label>
+            	                            <input name="name" type="text" class="form-control " id="name" placeholder=""
+                	                        value="<?php echo $name ?>" required>
+                    	                    <?php if($name_error) { ?>
+                        	                    <div class="error"><?php echo $name_error ?></div>
+                            	            <?php } ?>
+	                                    </div>
+									</div>
+									<div class="col-12 col-md-6">
                                         <div class="form-group">
-                                        <label for="phone">
-                                            Phone Number:
-                                        </label>
-                                        <input name="phone" type="text" class="form-control " id="phone" placeholder=""
-                                        value="<?php echo $phone ?>" required>
-                                        <?php if($phone_error) { ?>
-                                            <div class="error"><?php echo $phone_error ?></div>
-                                        <?php } ?>
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="email">
-                                            Email:
-                                        </label>
-                                        <input name="email" type="email" class="form-control " id="email" placeholder=""
-                                        value="<?php echo $email ?>" required>
-                                        <?php if($email_error) { ?>
-                                            <div class="error"><?php echo $email_error ?></div>
-                                        <?php } ?>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                        <label for="address">
-                                            Address: 
-                                        </label>
-                                        <input name="address" type="address" class="form-control " id="address" placeholder=""
-                                        value="<?php echo $address ?>" required>
-                                        <?php if($address_error) { ?>
-                                            <div class="error"><?php echo $address_error ?></div>
-                                        <?php } ?>
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="country">
-                                            Country:
-                                        </label>
-                                        <input name="country" type="country" class="form-control " id="country" placeholder=""
-                                        value="<?php echo $country ?>" required>
-                                        <?php if($country_error) { ?>
-                                            <div class="error"><?php echo $country_error ?></div>
-                                        <?php } ?>
-                                        </div>
-                                        <div class="form-group">
-                                        <label for="postcode">
-                                            Postcode:
-                                        </label>
-                                        <input name="postcode" type="postcode" class="form-control " id="postcode" placeholder=""
-                                        value="<?php echo $postcode ?>" required>
-                                        <?php if($postcode_error) { ?>
-                                            <div class="error"><?php echo $postcode_error ?></div>
-                                        <?php } ?>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-12">   
-                                        <br/>
-                                        <input type="submit" value="Submit" class="btn btn-success btn-lg btn-block btn-submit">
-                                    </div>
-                                </div>
-                            </form>
-                    </div>
-                </div>
+            	                            <label for="phone">
+                    	                        Phone Number:
+                	                        </label>
+	                                        <input name="phone" type="text" class="form-control " id="phone" placeholder=""
+    	                                    value="<?php echo $phone ?>" required>
+        	                                <?php if($phone_error) { ?>
+            	                                <div class="error"><?php echo $phone_error ?></div>
+                	                        <?php } ?>
+											</div>
+										</div>
+										<div class="col-12">
+        	                                <div class="form-group">
+            	                            <label for="email">
+                	                            Email:
+                    	                    </label>
+                        	                <input name="email" type="email" class="form-control " id="email" placeholder=""
+                            	            value="<?php echo $email ?>" required>
+                                	        <?php if($email_error) { ?>
+	                                            <div class="error"><?php echo $email_error ?></div>
+    	                                    <?php } ?>
+        	                                </div>
+										</div>
+										<div class="col-12">
+											<br/>
+											<hr/>
+											<br/>
+											<h3>Shipping Details</h3>
+										<p style="color:#aaa;">Where will it be delivered?</p>
+											<br/>
+										</div>
+                	                    <div class="col-12">
+                    	                    <div class="form-group">
+                        	                <label for="address_line_1">
+                            	                Address Line 1: <small>Street Address, P.O. Box, Company Name</small> 
+                                	        </label>
+                                    	    <input name="address_line_1" type="address_line_1" class="form-control " id="address_line_1" placeholder=""
+                                        	value="<?php echo $address_line_1 ?>" required>
+	                                        <?php if($address_line_1_error) { ?>
+    	                                        <div class="error"><?php echo $address_line_1_error ?></div>
+        	                                <?php } ?>
+										</div>
+               	                        <div class="form-group">
+                    	                    <label for="address_line_2">
+                        	                    Address Line 2: <small>Apartment, suite, unit, building, floor, etc.</small> 
+                            	            </label>
+                                	        <input name="address_line_2" type="address_line_2" class="form-control " id="address_line_2" placeholder=""
+                                    	    value="<?php echo $address_line_2 ?>" required>
+                                        	<?php if($address_line_2_error) { ?>
+	                                            <div class="error"><?php echo $address_line_2_error ?></div>
+    	                                    <?php } ?>
+										</div>
+									</div>
+									<div class="col-12 col-md-6">
+           	                            <div class="form-group">
+                	                        <label for="city">
+                    	                        City:
+                        	                </label>
+                            	            <input name="city" type="city" class="form-control " id="city" placeholder=""
+                                	        value="<?php echo $city ?>" required>
+                                    	    <?php if($city_error) { ?>
+                                        	    <div class="error"><?php echo $city_error ?></div>
+	                                        <?php } ?>
+    	                                </div>
+            	                    </div>
+									<div class="col-12 col-md-6">
+        	                            <div class="form-group">
+            	                            <label for="state">
+                	                            State:
+                    	                    </label>
+                        	                <input name="state" type="state" class="form-control " id="state" placeholder=""
+	                                        value="<?php echo $state ?>" required>
+    	                                    <?php if($state_error) { ?>
+        	                                    <div class="error"><?php echo $state_error ?></div>
+            	                            <?php } ?>
+                	                    </div>
+            	                    </div>
+									<div class="col-12 col-md-6">
+                    	                <div class="form-group">
+                        	                <label for="country">
+                            	                Country:
+                                	        </label>
+                                    	    <input name="country" type="country" class="form-control " id="country" placeholder=""
+	                                        value="<?php echo $country ?>" required>
+    	                                    <?php if($country_error) { ?>
+        	                                    <div class="error"><?php echo $country_error ?></div>
+            	                            <?php } ?>
+                	                    </div>
+            	                    </div>
+									<div class="col-12 col-md-6">
+                    	                <div class="form-group">
+                        	                <label for="postcode">
+                            	                ZIP / Postcode:
+                                	        </label>
+                                    	    <input name="postcode" type="postcode" class="form-control " id="postcode" placeholder=""
+                                        	value="<?php echo $postcode ?>" required>
+	                                        <?php if($postcode_error) { ?>
+    	                                        <div class="error"><?php echo $postcode_error ?></div>
+        	                                <?php } ?>
+            	                            </div>
+                	                    </div>
+                    	                <div class="col-sm-12">   
+	                                        <br/>
+    	                                    <input type="submit" value="Submit" class="btn btn-success btn-lg btn-block btn-submit">
+        	                            </div>
+            	                    </div>
+                	            </form>
+                    	</div>
+	                </div>
                 </div>
                 </div>
                 </div>
