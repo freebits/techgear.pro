@@ -381,9 +381,9 @@ body {
 
 @media(min-width:1200px) {
     .jumbo-hero {
-        background-size:820px auto;
+        background-size:40% auto;
         background-repeat:no-repeat;
-        background-position:20% 0%;
+        background-position:25% 10%;
         height:95vh;
     }
     .hero-text-box {
