@@ -3,7 +3,7 @@
 function add_contact(string $name, string $phone, string $email, string $address_line_1, string $address_line_2, string $city, string $state, string $country, string $postcode) {
   $dbh = new PDO("pgsql:dbname=techgear.pro", "user");
   $sth = $dbh->prepare(
-    'INSERT INTO contact(name, phone, email, address_line_1, :address_line_2, city, state, country, postcode)
+    'INSERT INTO contact(name, phone, email, address_line_1, address_line_2, city, state, country, postcode)
     VALUES (:name, :phone, :email, :address_line_1, :address_line_2, :city, :state, :country, :postcode)' 
   );
   $sth->bindParam(':name', $name, PDO::PARAM_STR);
