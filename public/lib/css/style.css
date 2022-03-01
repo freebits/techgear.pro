@@ -265,6 +265,14 @@ body {
     border:1px solid #ddd;
 }
 
+.jumbo-success {
+    border-bottom:0px;
+    margin:0;
+    background-color:#fff;
+    padding-top:10vh;
+    padding-bottom:15vh;
+}
+
 .footer {
     border-top:1px solid #eee;
     padding-top:10vh;
