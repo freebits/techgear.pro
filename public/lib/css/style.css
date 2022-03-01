@@ -24,13 +24,12 @@ body {
     background-color:#fff;
     border-bottom:1px solid #eee;
     padding-bottom:15vh;
-    background-image:url('/lib/img/hero.jpg');
+    background-image:url('/lib/img/hero2.webp');
     background-size:720px auto;
     background-repeat:no-repeat;
     background-position:20% 30%;
-    height:95vh;
     padding-top:3vh;
-    background-size:270px;
+    background-size:310px;
     background-position:50% 100%;
     padding-bottom:10vh;
     height:75vh;
@@ -236,6 +235,13 @@ body {
 
 @media(max-width:767px) {
     .jumbo-hero {
+        background-image:none;
+        height:auto;
+    }
+
+    .jumbo-hero-image {
+        margin-top:20px;
+        height:300px;
     }
 
     .hero-text-box {
@@ -375,9 +381,9 @@ body {
 
 @media(min-width:1200px) {
     .jumbo-hero {
-        background-size:720px auto;
+        background-size:820px auto;
         background-repeat:no-repeat;
-        background-position:20% 30%;
+        background-position:20% 0%;
         height:95vh;
     }
     .hero-text-box {
